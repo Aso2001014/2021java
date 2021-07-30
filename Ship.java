@@ -1,11 +1,13 @@
-public class JK05{
-    public static void main(String[] args){
-	int num = 10;
-	int add =1;
-	for(int i =0; i < 9; i++){
-		add = add*num;
-		num--;
-		}
-		System.out.println(add);
-	}
-}
+public class Ship{
+    private int x;
+    private int y;
+    private int hp;
+  
+    public static String　shiphp(int hp){
+        if(hp > 0){
+            return "生きている"
+        }else{
+            return "撃沈"
+
+        }
+    }
